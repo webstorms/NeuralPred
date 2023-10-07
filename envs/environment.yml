@@ -1,0 +1,23 @@
+name: neuralpred
+
+dependencies:
+  - python=3.8
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - nvidia::cudatoolkit=11.3
+  - matplotlib
+  - seaborn
+  - pandas
+  - conda-forge::h5py
+  - nb_conda_kernels
+  - pytest
+  - pip:
+      - oct2py
+      - shelves
+      - scikit-learn
+      - jupyter
+      - tables
+      - brainbox
+      - --editable ../
+      - --editable /home/luketaylor/PycharmProjects/StackTP
+      # You will have to change this to the GitHub repo or link it dynamically like above using your local paths

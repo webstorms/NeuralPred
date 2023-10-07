@@ -1,0 +1,16 @@
+name: prednetbuild
+
+dependencies:
+  - python=3.7
+  - cudatoolkit=9.2
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pandas=1.0.1
+  - scipy=1.2.1
+  - scikit-learn=0.23.2
+  - pytables=3.6.1
+  - keras=2.2.4
+  - pip:
+    - tensorflow-gpu==1.14.0
+    - shelves
+    - --editable ../
