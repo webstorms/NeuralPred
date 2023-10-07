@@ -31,7 +31,7 @@ All build scripts can be found under ```scripts/build_pca```. You will need to a
 All readout fitting scripts can be found under ```scripts/fit_models```.
 
 ## Inspecting models
-See ```notebooks/Inspection.ipynb``` to view model RFs and predictions.
+See ```notebooks/Inspection.ipynb``` to view results.
 
 ## License
 Code released under the MIT license.
