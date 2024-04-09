@@ -17,7 +17,7 @@ dependencies:
       - scikit-learn
       - jupyter
       - tables
-      - brainbox
+      - brainbox=0.0.6
       - --editable ../
       - --editable /home/luketaylor/PycharmProjects/StackTP
       # You will have to change this to the GitHub repo or link it dynamically like above using your local paths
